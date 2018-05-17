@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-#define ADAFRUIT_USERNAME            "mrkecubunk"
-#define AIO_KEY                      "216495d375cc4d9fb3862cbb2ba8ec84"
-#define FEED_PATH1                   "mrkecubunk/feeds/onoff"
+#define ADAFRUIT_USERNAME            "ADAFRUIT_USERNAME"
+#define AIO_KEY                      "ADAFRUIT_TOKEN"
+#define FEED_PATH1                   "ADAFRUIT_USERNAME/feeds/onoff"
 #define AIO_CLIENT                   "WemosD1"
 #define BUILTIN_LED  LED_BUILTIN
 
