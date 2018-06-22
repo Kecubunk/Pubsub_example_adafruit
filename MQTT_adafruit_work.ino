@@ -52,7 +52,7 @@ void setup(void)
   Serial.println("");
   Serial.println("Connecting to Wifi");
   
-  WiFi.begin("ImperiumII", "merdeka123");
+  WiFi.begin("SSID NAME", "NETWORK KEY");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
